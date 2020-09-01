@@ -7,8 +7,8 @@ class Rope {
             bodyA: body1,
             bodyB: body2,
             pointB: {x:this.offsetX, y: this.offsetY},
-            stiffness: 0.04,
-            length: 10
+            stiffness: 0,
+            length: 150
         }
         this.rope = Matter.Constraint.create(options)
 
